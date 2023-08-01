@@ -193,7 +193,7 @@ function nextPageImage(event){
       localStorage.setItem("historyTitle", JSON.stringify(resultsTitle));
     }
 
-    window.location.href = "./assets/pages/secondpage.html";
+    window.location.href = "./assets/pages/secondPage.html";
     localStorage.setItem("title", event.target.id)
     localStorage.setItem("img", event.target.src)
 }
