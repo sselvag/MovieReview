@@ -196,12 +196,6 @@ function sideDrag(e){
 
 }
 
-function getProvider(id){
-
-  const api = `https://api.themoviedb.org/3/movie/${id}/watch/providers?api_key=04c35731a5ee918f014970082a0088b1`;
-  
-}
-
 function load(){
   window.addEventListener('load', () => {
     setTimeout(()=>{
