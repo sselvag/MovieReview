@@ -47,14 +47,7 @@
     left: 96px;
   }
 
-  /* body{
-    zoom: 70%;
-  } */
-
-
 }
-
-  
 
 @media screen and (max-width: 1885px) {
   .section-x {
@@ -78,7 +71,6 @@
   }
 }
 
-
 @media screen and (max-width: 1563px) {
   .section-x {
     padding-left:160px;
@@ -87,8 +79,6 @@
     left: 675px;
   }
 }
-
-
 
 @media screen and (max-width: 1454px) {
 
@@ -115,10 +105,6 @@
     flex-wrap: wrap;
   }
 
-  /* #items{
-    display: none;
-  } */
-
   .media-element > img {
     height: 375px;
     width: 235.77px;
@@ -139,7 +125,6 @@
   }
   
 }
-
 
 @media screen and (max-width: 951px) {
   html{
