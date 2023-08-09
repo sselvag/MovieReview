@@ -184,7 +184,7 @@ header h1{
     width: 80%;
   }
 
-  header{
+  .header{
     justify-content: center;
   }
 
@@ -206,11 +206,6 @@ header h1{
 
   .sidebar-top span{
     display: none;
-  }
-
-  .fa-user-astronaut{
-    position: relative;
-    right: 25px;
   }
 
 }
