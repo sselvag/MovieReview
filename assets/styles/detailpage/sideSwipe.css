@@ -1,4 +1,5 @@
 @import "https://unpkg.com/open-props";
+@import "https://unpkg.com/open-props/normalize.min.css";
 
 
 .slider-cont{
@@ -6,7 +7,6 @@
     display: flex;
     justify-content: center;
 }
-
 
 .media-scroller {
     --_spacer: var(--size-3);
@@ -20,7 +20,6 @@
     overscroll-behavior-inline: contain;
     max-width: 2600px;
 }
-
 
 .media-scroller--with-groups {
     grid-auto-columns: 90%;
@@ -36,31 +35,17 @@
 }
 
 .media-element {
-    display: grid;
     grid-template-rows: min-content;
-    gap: var(--_spacer);
     padding: var(--_spacer);
-    background: var(--surface-2);
-    border-radius: var(--radius-2);
-    box-shadow: var(--shadow-2);
     min-width: 564px;
     max-width: 564px;
 }
-
-
-.media-element > img {
-    inline-size: 100%;
-    aspect-ratio: 16 / 9;
-    object-fit: cover;
-}
-
 
 .active {
     cursor: grabbing;
     cursor: -webkit-grabbing;
     transform: scale(1);
 }
-
 
 .media-element > img {
     height: 435px;
@@ -69,41 +54,29 @@
     user-select: none;
     transition: box-shadow 0.3s;
     margin-bottom: 50px;
-    border: 1px solid white;
     width: 294.77px;
     border-radius: 8px;
 }
 
-
 .media-element > img:hover{
     cursor: pointer;
     box-shadow: 0px 0px 40px -2px rgba(0,0,0,0.9);
-
 }
 
 @media screen and (max-width: 1799px) {
-
     .media-scroller {
         grid-auto-columns: 18%;
     }
-
-
 }
 
 @media screen and (max-width: 997px) {
-
     .media-scroller {
         grid-auto-columns: 23%;
     }
-
-
 }
 
 @media screen and (max-width: 997px) {
-
     .media-scroller {
         grid-auto-columns: 29%;
     }
-
-
 }
