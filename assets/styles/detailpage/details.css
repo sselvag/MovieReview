@@ -164,7 +164,6 @@ h3{
 }
 
 .bored{
-  /* border: 1px solid white; */
   display: flex;
 }
 
@@ -173,7 +172,6 @@ h3{
   position: relative;
   bottom: 10px;
   color: white;
-  /* background: white; */
 }
 
 #second-page-title{
@@ -222,7 +220,6 @@ h3{
 }
 
 .box-5{
-  /* border: 1px solid white; */
   display: flex;
   justify-content: center;
   flex-wrap: wrap;
@@ -231,7 +228,6 @@ h3{
 }
 
 .middle-container{
-  /* border: 1px solid rgb(0, 195, 255); */
   display: flex;
   justify-content: center;
   margin: 175px 0px 170px 0px;
@@ -239,7 +235,6 @@ h3{
 }
 
 .section-q{
-  /* border: 1px solid rgb(235, 19, 19); */
   display: flex;
   width: 2560px;
   margin: 10px;
@@ -251,7 +246,6 @@ h3{
 .section-x{
   width: 1200px;
   height: 100%;
-  /* border: 1px solid rgb(65, 171, 125); */
   margin: 10px;
   display: flex;
   flex-wrap: wrap;
@@ -263,7 +257,6 @@ iframe{
   user-select: none;
 }
 .comment-box{
-  /* border: 1px solid white; */
   width: 100%;
   padding: 40px 30px;
   box-shadow: 0px 0px 40px -2px rgb(0 0 0 / 40%);
@@ -286,21 +279,16 @@ iframe{
 }
 
 .info-box{
-  /* border: 1px solid; */
   display: flex;
   justify-content: flex-start;
 }
 
 .info-box img{
-  /* border: 1px solid green; */
   width: 100px;
   height: 100px;
-  /* box-shadow: 0px 0px 40px -2px rgb(0 0 0 / 40%);
-  border-radius: 100%; */
 }
 
 .info-box p{
-  /* width: 100%; */
   height: 100px;
   min-width: 1035px;
   margin-left: 20px;
@@ -327,7 +315,6 @@ iframe{
   justify-content: space-evenly;
   flex-wrap: wrap;
   align-items: center;
-  /* border: 1px solid white; */
   max-width: 2960px;
 
 }
@@ -364,7 +351,6 @@ iframe{
   flex-wrap: wrap;
   align-content:space-between;
 
-  /* border: 1px solid white; */
 }
 
 #overview{
@@ -394,8 +380,6 @@ iframe{
 }
 
 .details{ 
-  /* height: 500px; */
-  /* margin-top: 40px; */
   border-radius: 6px;
 }
 
@@ -408,7 +392,6 @@ iframe{
 }
 
 .watch-container{
-  /* border: 1px solid white; */
   display: flex;
   justify-content: center;
   width: 100%;
@@ -416,7 +399,6 @@ iframe{
 }
 
 .watch-now{
-  /* border: 1px solid white; */
   width: 93%;
   padding: 30px;
   display: flex;
@@ -457,7 +439,6 @@ iframe{
   width: 100%;
   display: flex;
   justify-content: space-evenly;
-  /* border: 1px solid white; */
 
 }
 
@@ -469,8 +450,7 @@ iframe{
 
 }
 
-.titlle{
-  /* border: 1px solid lightgray; */
+.title{
   color: white;
   position: relative;
   top: 90px;
@@ -509,9 +489,7 @@ iframe{
   #search-cont{
     background-color: none;
   }
-  /* .search-cont{
-    width: 80%;
-  } */
+
 }
 
 @media screen and (max-width: 1956px) {
@@ -520,7 +498,6 @@ iframe{
     right: 40px;
   }
   .section-q {
-    /* background-color: pink; */
     justify-content: space-evenly;
   }
 }
