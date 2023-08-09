@@ -95,7 +95,7 @@ function display_movies(url){
       if(results[i].poster_path != null){
         img_tag.setAttribute("src", `${poster_path}${results[i].poster_path}`);
       }else{
-        img_tag.setAttribute("src", "./assets/image/no-poster-available.jpg");
+        img_tag.setAttribute("src", "./assets/img/no-poster-available.jpg");
         img_tag.style.height = "412.5px";
       }
       title_tag.innerText = `${results[i].title}`
@@ -218,7 +218,7 @@ sidebarBtn.forEach(function(sidebarBtn){
           display_movies(urlUpcomimg);
           searchDisplay.textContent = "Searching: Upcoming" 
       } 
-  })
+    })
 })
 
 function load(){

@@ -85,7 +85,6 @@ header h1{
 
 #search-button i:hover{
   background: rgb(66, 7, 35);
-  /* background: #b39f8e; */
   box-shadow: -1px 12px 15px 0px rgba(0,0,0,0.3);
 }
 
@@ -174,7 +173,7 @@ header h1{
 ::-webkit-scrollbar-thumb:hover {
   background: rgb(102, 101, 101); 
 }
-/* 26s */
+
 @media screen and (max-width: 1051px) {
   header h1{
     display: none;
@@ -206,6 +205,11 @@ header h1{
 
   .sidebar-top span{
     display: none;
+  }
+
+  .fa-user-astronaut{
+    position: relative;
+    right: 25px;
   }
 
 }

@@ -158,7 +158,6 @@ function getComments(id){
   })
 }
 
-
 function toHomepage(event){
   event.preventDefault();
   window.location.href = "../../index.html";
@@ -189,13 +188,13 @@ function sideDrag(e){
     if(!isDown) return;
     e.preventDefault();
     const x = e.pageX - slider.offsetLeft;
-    const walk = (x - startX) * 3; //scroll-fast
+    const walk = (x - startX) * 3; 
     slider.scrollLeft = scrollLeft - walk;
   });
   
 
 }
-
+  
 function load(){
   window.addEventListener('load', () => {
     setTimeout(()=>{

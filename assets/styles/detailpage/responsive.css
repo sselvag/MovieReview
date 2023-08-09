@@ -49,6 +49,8 @@
 
 }
 
+  
+
 @media screen and (max-width: 1885px) {
   .section-x {
     padding-left: 0px;
@@ -71,6 +73,7 @@
   }
 }
 
+
 @media screen and (max-width: 1563px) {
   .section-x {
     padding-left:160px;
@@ -79,6 +82,8 @@
     left: 675px;
   }
 }
+
+
 
 @media screen and (max-width: 1454px) {
 
@@ -125,6 +130,7 @@
   }
   
 }
+
 
 @media screen and (max-width: 951px) {
   html{

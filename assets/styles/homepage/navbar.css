@@ -34,6 +34,8 @@
 }
 
 .fa-solid:hover{
+    cursor: pointer;
+    background: #b39f8e;
     box-shadow: -1px 12px 15px 0px rgba(0,0,0,0.3);
 }
 
@@ -53,7 +55,6 @@
     transition-timing-function: ease;
 }
 
-
 .options section:hover{
     font-weight: bold;
     border-left-width: 7px;
@@ -63,12 +64,12 @@
     cursor: pointer;
 }
 
-.fa-fire-flame-curved:hover, .fa-masks-theater:hover, .fa-children:hover, .fa-film:hover, .fa-arrow-trend-up:hover{
+.fa-fire-flame-curved:hover, .fa-masks-theater:hover, .fa-landmark:hover, .fa-children:hover, .fa-film:hover, .fa-award:hover, .fa-clock:hover, .fa-arrow-trend-up:hover{
     background: none;
     color: rgb(133, 20, 75);
 }
 
-.fa-fire-flame-curved, .fa-masks-theater, .fa-children, .fa-film, .fa-arrow-trend-up{
+.fa-fire-flame-curved, .fa-masks-theater, .fa-landmark, .fa-children, .fa-film, .fa-award, .fa-clock, .fa-arrow-trend-up{
     color: white;
     font-size: 28px;
     padding: 0px;
@@ -102,11 +103,16 @@
     .options section{
         visibility: hidden;
     }
-    .fa-fire-flame-curved, .fa-masks-theater, .fa-children, .fa-film, .fa-arrow-trend-up{
+    .fa-fire-flame-curved, .fa-masks-theater, .fa-landmark, .fa-children, .fa-film, .fa-award, .fa-clock, .fa-arrow-trend-up{
         visibility: visible;
         margin-left: 4px;
     }
     .sidebar-top span{
         display: none;
+      }
+    
+      .fa-user-astronaut{
+        position: relative;
+        right: 25px;
       }
 }

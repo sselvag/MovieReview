@@ -152,7 +152,6 @@ h3{
   position: relative;
   top: 10px;
   left: 10px;
-
 }
 
 .run-line{
@@ -224,14 +223,12 @@ h3{
   justify-content: center;
   flex-wrap: wrap;
   margin: 175px 0px 0px 0px;
-
 }
 
 .middle-container{
   display: flex;
   justify-content: center;
   margin: 175px 0px 170px 0px;
-
 }
 
 .section-q{
@@ -240,7 +237,6 @@ h3{
   margin: 10px;
   justify-content: space-between;
   align-items: center;
-
 }
 
 .section-x{
@@ -250,7 +246,6 @@ h3{
   display: flex;
   flex-wrap: wrap;
   align-content: space-between;
-
 }
 
 iframe{
@@ -263,12 +258,10 @@ iframe{
   user-select: none;
   transition: box-shadow 0.4s;
   border-radius: 8px;
-
 }
 .comment-box:hover{
   cursor: pointer;
   box-shadow: 0px 0px 40px -2px rgb(0 0 0 / 85%);
-
 }
 
 .comment-box h2{
@@ -302,8 +295,6 @@ iframe{
   box-shadow: 0px 0px 40px -2px rgba(0,0,0,0.7);
   user-select: none;
   margin-right: 20px;
-
-
 }
 
 #video:hover{
@@ -316,7 +307,6 @@ iframe{
   flex-wrap: wrap;
   align-items: center;
   max-width: 2960px;
-
 }
 
 .box-3 span{
@@ -330,7 +320,6 @@ iframe{
   box-shadow: 0px 0px 40px -2px rgba(0,0,0,0.97);
   border-radius: 6px;
   margin-left: 35px;
-
 }
 
 #rating-text{
@@ -346,11 +335,9 @@ iframe{
   width: 600px;
   height: 827px;
   margin: 0px 35px;
-
   display: flex;
   flex-wrap: wrap;
   align-content:space-between;
-
 }
 
 #overview{
@@ -427,7 +414,6 @@ iframe{
 
 }
 
-
 .provider h3{
   text-align: center;
   font-size: 24px;
@@ -439,7 +425,6 @@ iframe{
   width: 100%;
   display: flex;
   justify-content: space-evenly;
-
 }
 
 .scroll{
@@ -489,7 +474,6 @@ iframe{
   #search-cont{
     background-color: none;
   }
-
 }
 
 @media screen and (max-width: 1956px) {
