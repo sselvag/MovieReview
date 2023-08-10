@@ -160,7 +160,7 @@ function getComments(id){
 
 function toHomepage(event){
   event.preventDefault();
-  window.location.href = "../../";
+  window.location.href = "../../MovieReview/";
 }
 
 function sideDrag(e){
