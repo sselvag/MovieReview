@@ -160,7 +160,7 @@ function getComments(id){
 
 function toHomepage(event){
   event.preventDefault();
-  window.location.href = "../../index.html";
+  window.location.href = "../../";
 }
 
 function sideDrag(e){
@@ -201,7 +201,8 @@ function load(){
         document.getElementById("blueigdiud").style.display = 'block';
         document.getElementById("content").style.display = 'block';
         document.getElementById("load").style.display = 'none';
-    }, 2000)
+    }, 2000);
+    window.scrollTo(0, 0);
   });
 }
 
