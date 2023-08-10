@@ -160,7 +160,7 @@ function getComments(id){
 
 function toHomepage(event){
   event.preventDefault();
-  window.location.href = "https://sselvag.github.io/MovieReview/";
+  window.location= "https://sselvag.github.io/MovieReview/";
 }
 
 function sideDrag(e){
