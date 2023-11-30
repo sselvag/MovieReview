@@ -5,11 +5,14 @@ This web application was designed for users to search for any movie and be prese
 
 ## Homepage
 <img width="1415" alt="Screenshot 2023-11-29 at 4 28 41 PM" src="https://github.com/sselvag/MovieReview/assets/64749332/7facfde3-f908-4da4-b7aa-625b7d82ac28">
-
+<br/>
+<br/>
 Cinescape's homepage welcomes the user with a side navigation bar, a selection of movies, and a search bar. The sidebar includes the option to explore Popular, In Theatres, New, Kids and Upcoming movies. With the use of two free APIs, when a user searches for a movie in the search bar, the homepage would populate with the top 20 results.  
 
 ## Second Page
 <img width="1415" alt="Screenshot 2023-11-29 at 4 30 02 PM" src="https://github.com/sselvag/MovieReview/assets/64749332/bb2e0b06-b2ac-4eee-a399-72073f4de4b4">
+<br/>
+<br/>
 Using Event listeners, when a user clicks on a movie poster, they are taken to the second page. This second page includes reviews, ratings, trailer and additional information specific to the selected movie by compiling data from APIs. Near the end of this page, a side-scroll menu can be seen displaying another 20 films under the same genre.  
 
 ### Features on the Second Page
